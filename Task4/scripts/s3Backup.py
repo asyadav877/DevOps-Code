@@ -116,5 +116,6 @@ def main():
     # Associate the S3 bucket with the backup plan
     associate_s3_bucket_to_backup_plan(backup_client, plan_id, bucket_arn, role_arn)
 
+
 if __name__ == '__main__':
     main()
