@@ -25,7 +25,6 @@ resource "aws_cloudwatch_metric_alarm" "High-CPU-Utilization" {
 
 }
 
-
 resource "aws_autoscaling_policy" "ScaleIn" {
   name                   = "terraform-ScaleIn"
   scaling_adjustment     = var.scalein_scaling_adjustment
