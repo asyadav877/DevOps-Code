@@ -1,6 +1,6 @@
 # AWS S3 Backup Script
 
-This Python script provides a way to back up an Amazon S3 bucket using the AWS Backup service. It checks if bucket versioning is enabled, and if not, it can enable versioning automatically. The script also creates a backup plan and associates the S3 bucket with the backup plan.
+This Python script provides a way to enable automatic backup of an Amazon S3 bucket using the AWS Backup service. It checks if bucket versioning is enabled, and if not, it can enable versioning automatically. The script also creates a backup plan and associates the S3 bucket with the backup plan.
 
 ## Prerequisites
 
